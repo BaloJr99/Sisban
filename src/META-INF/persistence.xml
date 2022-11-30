@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="SISBANPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>jpa.TblTarjetas</class>
+    <class>jpa.TblTransacciones</class>
+    <class>jpa.TblDireccionBeneficiarios</class>
+    <class>jpa.TblTelefonoBancos</class>
+    <class>jpa.TblCorreoBeneficiarios</class>
+    <class>jpa.TblTelefonoBeneficiario</class>
+    <class>jpa.TblTelefonoClientes</class>
+    <class>jpa.TblEmpleado</class>
+    <class>jpa.TblCorreoClientes</class>
+    <class>jpa.TblUsuariosEmpleados</class>
+    <class>jpa.TblDireccionBancos</class>
+    <class>jpa.TblCuentas</class>
+    <class>jpa.TblCliente</class>
+    <class>jpa.TblDireccionCliente</class>
+    <class>jpa.TblTelefonoEmpleados</class>
+    <class>jpa.TblDireccionEmpleados</class>
+    <class>jpa.TblPreguntas</class>
+    <class>jpa.TblUsuariosClientes</class>
+    <class>jpa.TblBeneficiarios</class>
+    <class>jpa.TblBancos</class>
+    <class>jpa.TblCorreoEmpleado</class>
+    <class>jpa.TblSaldos</class>
+    <class>jpa.TblRespuestas</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://BALOJR999\SQLSERVER267:1433;databaseName=DB_PROYECTO"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="Pirata99*"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
